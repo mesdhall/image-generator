@@ -24,7 +24,7 @@ const openai = new OpenAIApi(configuration);
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
 
-app.listen(3001)
+app.listen(8080)
 console.log('Server running on port 3001')
 
 // whitelist of origins for CORS
